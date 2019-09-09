@@ -1,0 +1,10 @@
+<h1>CKEditor 4</h1>
+<h1><button [routerLink]="['/tiny']" >ngx-tinymce</button></h1>
+<div>
+        <form [formGroup]="ckEdit" >
+                
+                <ck-editor name="editor1"  skin="moono-lisa" language="en" [fullPage]="true" formControlName="text"></ck-editor>
+            </form>
+            <button (click)="demo()">Submit</button>
+</div>
+   
